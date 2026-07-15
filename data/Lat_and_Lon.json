@@ -29,7 +29,7 @@
         "city": "Rajshahi",
         "country": "Bangladesh"
     },
-     {
+    {
         "latitude": 52.46684,
         "longitude": -109.6015,
         "city": "Error Lakes",
@@ -47,5 +47,22 @@
         "city": "Erskine Inlet",
         "country": "Canada"
     },
-
+    {
+        "latitude": -77.8419,
+        "longitude": 166.6863,
+        "city": "McMurdo Station",
+        "country": "Antarctica"
+    },
+    {
+        "latitude": -90.0,
+        "longitude": 0.0,
+        "city": "Amundsen-Scott South Pole Station",
+        "country": "Antarctica"
+    },
+    {
+        "latitude": -78.4645,
+        "longitude": 106.8339,
+        "city": "Vostok Station",
+        "country": "Antarctica"
+    }
 ]

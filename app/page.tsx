@@ -372,14 +372,14 @@ export default function Page() {
 
           {/* Discreet debug affordance replacing the old raw toggle */}
           <div className="debug-row">
-            <button
+            {/* <button
               className="debug-toggle"
               onClick={() => setShowRaw((v) => !v)}
               title="View raw API response"
               aria-label="View raw API response"
             >
               {"</>"}
-            </button>
+            </button> */}
           </div>
           {showRaw && <pre className="raw">{JSON.stringify(data, null, 2)}</pre>}
         </section>
