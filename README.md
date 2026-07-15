@@ -1,4 +1,4 @@
-# Sky Report — a WeatherAI AI
+# Weather Report — a WeatherAI AI
 
 A single-page Next.js app that reads live conditions from the [WeatherAI](https://weather-ai.co) API and displays them as a small instrument panel: current temperature, condition, humidity, wind, and the API's AI-generated summary.
 

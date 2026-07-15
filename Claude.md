@@ -1,4 +1,4 @@
-# CLAUDE.md — Sky Report (WeatherAI AI)
+# CLAUDE.md — Weather Report (WeatherAI AI)
 
 This file is the working spec for this repo. It has two parts: **Existing Spec** (what's already built and should be treated as the current baseline) and **Current Changes** (what to build next). Keep this file up to date as changes land — append to Current Changes, and fold completed items back into Existing Spec once merged.
 

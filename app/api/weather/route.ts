@@ -20,7 +20,8 @@ export async function GET(req: NextRequest) {
   // If no coordinates were supplied, fall back to IP-based geo-detection.
   const usingGeoDetect = !lat || !lon;
   const path = usingGeoDetect ? "/v1/weather-geo" : "/v1/weather";
-  const upstreamParams = new URLSearchParams({ units, ai: "true" });
+  // 6-day forecast strip in the UI.
+  const upstreamParams = new URLSearchParams({ units, ai: "true", days: "6" });
 
   if (usingGeoDetect) {
     upstreamParams.set("ip", "auto");

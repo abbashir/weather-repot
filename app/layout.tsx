@@ -3,7 +3,7 @@ import "./globals.css";
 import StyledJsxRegistry from "./registry";
 
 export const metadata: Metadata = {
-  title: "Sky Report — WeatherAI AI",
+  title: "Weather Report — WeatherAI AI",
   description: "A one-page instrument panel built on the WeatherAI API.",
 };
 

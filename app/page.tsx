@@ -227,8 +227,7 @@ export default function Page() {
   return (
     <main className="wrap">
       <header className="eyebrow-row">
-        <span className="eyebrow">SKY REPORT</span>
-        <span className="eyebrow fog">WeatherAI · /v1/weather</span>
+        <span className="eyebrow">Weather REPORT</span>
       </header>
 
       <form className="picker" onSubmit={(e) => e.preventDefault()}>
