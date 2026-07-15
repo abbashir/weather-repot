@@ -71,12 +71,9 @@ data/
 - The file has some quirks that are sanitized at load time (bare `NaN`/`Infinity` tokens, a trailing comma from a truncated dump); entries with non-finite coordinates are skipped.
 - Some entries are geographic features rather than towns (peaks, etc.) — they're listed verbatim as given.
 
-## Deploying (Vercel)
+## Live demo
 
-1. Push this repo to GitHub.
-2. Import it at [vercel.com/new](https://vercel.com/new).
-3. Add an environment variable: `WEATHER_AI_API_KEY` = your key.
-4. Deploy. No other config needed — a default Next.js app requires no `vercel.json`.
+[https://weather-repot.vercel.app/](https://weather-repot.vercel.app/)
 
 ## Stack
 
