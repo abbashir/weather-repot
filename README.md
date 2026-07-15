@@ -2,6 +2,8 @@
 
 A single-page Next.js app that reads live conditions from the [WeatherAI](https://weather-ai.co) API and displays them as a small instrument panel: current temperature dial, wind, a 6-day forecast strip, an hourly temperature trend chart, and the API's AI-generated summary.
 
+**Repository:** [github.com/abbashir/weather-repot](https://github.com/abbashir/weather-repot)
+
 ## What it does (one page, no routing)
 
 1. **On load**, it asks the browser for your location. If that's denied or unavailable, it falls back to the API's own IP-based geo-detection (`/v1/weather-geo?ip=auto`).
@@ -24,6 +26,9 @@ All WeatherAI calls happen server-side, through `app/api/weather/route.ts`. The 
 ## Setup
 
 ```bash
+git clone https://github.com/abbashir/weather-repot.git
+cd weather-repot
+
 npm install
 cp .env.local.example .env.local
 # edit .env.local and paste your key:
