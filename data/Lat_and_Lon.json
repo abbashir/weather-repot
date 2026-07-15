@@ -1,0 +1,51 @@
+[
+    {
+        "latitude": -35.72059,
+        "longitude": 147.64063,
+        "city": "Yarara",
+        "country": "Australia"
+    },
+    {
+        "latitude": -27.32503,
+        "longitude": 151.45739,
+        "city": "Wainui",
+        "country": "Australia"
+    },
+    {
+        "latitude": -38.59645,
+        "longitude": 146.78279,
+        "city": "Hunterston",
+        "country": "Australia"
+    },
+    {
+        "latitude": 23.7104,
+        "longitude": 90.40744,
+        "city": "Dhaka",
+        "country": "Bangladesh"
+    },
+    {
+        "latitude": 24.36962,
+        "longitude": 88.60748,
+        "city": "Rajshahi",
+        "country": "Bangladesh"
+    },
+     {
+        "latitude": 52.46684,
+        "longitude": -109.6015,
+        "city": "Error Lakes",
+        "country": "Canada"
+    },
+    {
+        "latitude": 52.33342,
+        "longitude": -112.88522,
+        "city": "Erskine",
+        "country": "Canada"
+    },
+    {
+        "latitude": 76.03487,
+        "longitude": -102.0861,
+        "city": "Erskine Inlet",
+        "country": "Canada"
+    },
+
+]
