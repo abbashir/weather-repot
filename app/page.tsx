@@ -232,6 +232,7 @@ export default function Page() {
       </header>
 
       <form className="picker" onSubmit={(e) => e.preventDefault()}>
+        <div className="picker-row">
         <label className="field">
           COUNTRY
           <select value={country} onChange={(e) => handleCountryChange(e.target.value)}>
@@ -265,7 +266,9 @@ export default function Page() {
             ))}
           </select>
         </label>
+        </div>
 
+        <div className="picker-row">
         <div className="unit-toggle" role="group" aria-label="Units">
           <button
             type="button"
@@ -286,6 +289,7 @@ export default function Page() {
         <button type="button" className="go" onClick={handleUseLocation}>
           {loading ? "Reading…" : "Use current location"}
         </button>
+        </div>
       </form>
 
       {error && <p className="error">{error}</p>}
@@ -408,13 +412,18 @@ export default function Page() {
         }
         .picker {
           display: flex;
-          gap: 12px;
-          flex-wrap: wrap;
-          align-items: end;
+          flex-direction: column;
+          gap: 14px;
           background: var(--panel);
           border: 1px solid var(--hairline);
           border-radius: 14px;
           padding: 18px;
+        }
+        .picker-row {
+          display: flex;
+          gap: 12px;
+          flex-wrap: wrap;
+          align-items: end;
         }
         .field {
           display: flex;
